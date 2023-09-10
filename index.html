@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,9 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Container principal-->
     <div class="container">
+      <!-- formulario de captação dos dados-->
       <form onsubmit="calcular(event)">
         <h1>Calculadora de IMC</h1>
         <label for="" class="lbl">Digite seu peso:</label>
@@ -29,10 +31,11 @@
           class="input"
           placeholder="1.85m"
         />
+        <!-- Container do botao calcular-->
         <div class="container-btn">
           <input type="submit" value="Calcular IMC" class="btn" />
         </div>
-
+        <!-- Container para resultado da operação-->
         <div id="resultado"></div>
       </form>
     </div>
